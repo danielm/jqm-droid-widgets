@@ -1,12 +1,19 @@
+/*
+ * jQuery Mobile Droid widgets - 0.1
+ * http://www.daniel.com.uy/projects/jqm-droid-widgets/
+ * 
+ * Copyright (c) 2013 Daniel Morales
+ * Dual licensed under the MIT and GPL licenses.
+ * http://www.daniel.com.uy/doc/license/
+ */
+
 package com.danielm.jqw;
 
 import android.os.Bundle;
 import android.app.Activity;
-import android.content.Intent;
 import android.util.Log;
 import android.view.Menu;
 import android.view.View;
-import android.view.Window;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.AdapterView.OnItemClickListener;

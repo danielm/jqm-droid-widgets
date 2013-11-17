@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@layout/listview_selector"
+    android:orientation="horizontal"
+    android:padding="5dip" >
+ 
+    <!-- Text -->
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="#ffffff"
+        android:typeface="sans"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:shadowColor="#111"
+        android:shadowDx="3"
+        android:shadowDy="2"
+        android:shadowRadius="2"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:layout_marginRight="18dip" />
+     
+    <!-- Right arraw -->
+    <ImageView android:layout_width="wrap_content"
+        android:contentDescription="Go"
+        android:layout_height="wrap_content"
+        android:src="@drawable/arrow"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="8dip"/>
+ 
+</RelativeLayout>

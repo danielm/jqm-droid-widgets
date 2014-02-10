@@ -8,5 +8,4 @@ http://blog.daniel.com.uy/2013/11/android-widgets-as-jquery-mobile.html
 ##Widgets
 - Activity
 - ListView
--
 - ........
